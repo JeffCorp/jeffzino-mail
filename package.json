@@ -1,13 +1,13 @@
 {
-  "name": "ancoria-api",
+  "name": "mail-api",
   "version": "1.0.0",
-  "description": "This is an API designed to support third-party systems with the Ancoria Web Platform",
+  "description": "This is an API designed to support third-party systems with the Nipit consultancy Web Platform",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "Anonymous Dev",
+  "author": "Ukutegbe Patrick",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
@@ -23,11 +23,12 @@
     "mongoose-paginate-v2": "^1.3.9",
     "morgan": "^1.10.0",
     "nexmo": "^2.8.0",
+    "nodemailer": "^6.4.16",
     "smpp": "^0.4.0",
     "swagger-jsdoc": "^4.0.0",
     "swagger-ui-express": "^4.1.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.6"
   }
 }
